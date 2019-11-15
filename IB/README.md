@@ -2,7 +2,8 @@
 This will hopefully become an amazing background iin which others can downlaod 
 and use like any other interactive backgroun. But my main goal is to get it so 
 that it can optomally preform on a magic mirror that me and group of developers
-are working on. These are all my notes and trial. Wish me luck!
+are working on. These are all my notes and trial. Wish me luck! 
+try to use processing.py for OOP https://py.processing.org/tutorials/objects/
 
 Requirements:
 
@@ -61,5 +62,3 @@ Crazy Chopper: Put this in the Magic Mirror, and add other things. Find a way
 to sell this online to others too, so that they may use and enjoy your 
 creation. Leave on the internet for other developers to have the ability to 
 use a cool background.
-
-Do other Magic Mirror Assignments (there's not enough time but do your best)
