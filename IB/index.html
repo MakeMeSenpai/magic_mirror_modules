@@ -16,6 +16,12 @@
                 font-size: 72px;
                 margin: auto;
             }
+            big{
+                z-index: -4;
+            }
+            small{
+                z-index: -3;
+            }
             footer{
                 position: absolute;
                 bottom: 0;
@@ -26,6 +32,23 @@
         <header>
             <h1>Aquarious</h1>
         </header>
+        <!--look at jinja documentation to bring in elements from python to html.
+        maybe it is better however to just push html threw python like you usually do.
+        if this doesn't work, than we will have to resort to particle effects... and that
+        is what we are trying to avoid! Epecially becuase that would mean soo many div tags
+        (due to our special effects wanting to be particles) We may have to download Flask.-->
+        <!--container for fishes in z-index -4-->
+        <big>
+            {% Block Content%}
+                big fishies
+            {% EndBlock %}
+        </big>
+        <!--container for fishes in z-index -3-->
+        <small>
+            {% Block Content%}
+                small fishies
+            {% EndBlock %}
+        </small>
     </body>
     <footer>
         <p>By Anthony S. Protho, Brought to you by The Corner Corp. ©2019-2021</p>

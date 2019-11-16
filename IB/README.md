@@ -1,14 +1,14 @@
-**Aquarious - The Interactive Background**
+# Aquarious - The Interactive Background
 This will hopefully become an amazing background iin which others can downlaod 
 and use like any other interactive backgroun. But my main goal is to get it so 
 that it can optomally preform on a magic mirror that me and group of developers
 are working on. These are all my notes and trial. Wish me luck! 
 try to use processing.py for OOP https://py.processing.org/tutorials/objects/
 
-Requirements:
+**Requirements:**
 
     Background{Z-index -5}: Made up of a mostly still image in which plants 
-    and water can be seen moving. √√√
+    and water can be seen moving. [√]
 
     Playground{Z-index -4 to -3}: Made up of objects that will be our fish, 
     who will swim around and wrap around the background. Fishes/Objects should
@@ -32,11 +32,12 @@ Requirements:
     from the store when you ship it. Or for other developers who just want to 
     use an amazing background!
 
-TODO:
+**TODO:**
 
 Skateboard: Objects are created and can be see moving across the screen, 
-wrapping around the screen, and there iis a proper background (we will be
-adding our best graphics later on) basic particles are created and destroyed behind the users actions. The application remains in the background.
+wrapping around the screen, and there is a proper background (we will be
+adding our best graphics later on) basic particles are created and destroyed behind the users 
+actions. The application remains in the background.
 
 Bike: Objects are seen avoiding one another, or swimming over one another, and
 proper fish skin to represent who they are. (we will add better fish 
