@@ -16,7 +16,7 @@
                 font-size: 72px;
                 margin: auto;
             }
-            big{
+            normal{
                 z-index: -4;
             }
             small{
@@ -38,11 +38,11 @@
         is what we are trying to avoid! Epecially becuase that would mean soo many div tags
         (due to our special effects wanting to be particles) We may have to download Flask.-->
         <!--container for fishes in z-index -4-->
-        <big>
+        <normal>
             {% Block Content%}
                 big fishies
             {% EndBlock %}
-        </big>
+        </normal>
         <!--container for fishes in z-index -3-->
         <small>
             {% Block Content%}

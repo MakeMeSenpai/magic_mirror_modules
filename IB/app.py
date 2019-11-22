@@ -1,11 +1,6 @@
 from random import random, choice
 #installation porblems with processing 5, good luck
-#from p5 import *
-from jinja2 import Environment, PackageLoader, select_autoescape
-# env = Environment(
-#     loader=PackageLoader('yourapplication', 'templates'),
-#     autoescape=select_autoescape(['html', 'xml'])
-# )
+from p5 import *
 
 class fish:
     def __init__(self, size, color):
@@ -29,27 +24,24 @@ class fish:
         # direction, or if they run into an obsticle
         pass
 
-#runs all of our program
-def run():
-    #chooses a random size at birth
-    size = random.randint(11, 39)
-    #chooses a random color at birth
-    colors = ["red", "orange", "yellow", "green", "blue", "indago", "violet"]
-    color = random.choice(colors)
-    #creating our fish
-    one = fish(size, color)
-    two = fish(size, color)
-    three = fish(size, color)
-    one.start_location()
-    two.start_location()
-    three.start_location()
-    #gives us test results
-    num = 0
-    fish_bowl = [one, two, three]
-    for fish in fish_bowl:
-        print(num + ": " + fish)
-        num += 1
-
+#runs our code
 size = random.randint(11, 39)
 print(size)
-run()
+#chooses a random size at birth
+size = random.randint(11, 39)
+#chooses a random color at birth
+colors = ["red", "orange", "yellow", "green", "blue", "indago", "violet"]
+color = random.choice(colors)
+#creating our fish
+one = fish(size, color)
+two = fish(size, color)
+three = fish(size, color)
+one.start_location()
+two.start_location()
+three.start_location()
+#gives us test results
+num = 0
+fish_bowl = [one, two, three]
+for fish in fish_bowl:
+    print(num + ": " + fish)
+    num += 1

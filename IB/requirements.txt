@@ -7,3 +7,4 @@ p5==0.6.0
 Pillow==6.2.1
 triangle==20190115.3
 vispy==0.6.2
+#be sure to brew install glfw
