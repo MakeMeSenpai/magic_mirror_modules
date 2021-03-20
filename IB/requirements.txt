@@ -1,6 +1,6 @@
 freetype-py==2.1.0.post1
 glfw==1.8.4
-Jinja2==2.10.3
+Jinja2==2.11.3
 MarkupSafe==1.1.1
 numpy==1.17.4
 p5==0.6.0
